@@ -25,13 +25,12 @@ What we do is the following:
 - Listen to the BrowserContextEvent in the Extension Context
 - Write the script in the document and let that listen to
   ExtensionContextEvent to receive events from the Extension Sandbox.
-- Inject that script into the page using <script> elements.
+- Inject that script into the page using script tag elements.
 - Each context will fire (dispatch) an event to the appropriate sandbox.
 
 By doing the following, we make sure we are passing events back and fourth
 between the extension context and browser context just so that we can
 communicate between the Sandboxes.
-
 
 How to run
 ---------------
@@ -39,6 +38,7 @@ How to run
 Since this is just vanialla JavaScript. It will work on any browser. Just copy
 the contents to the console/inspector. Once you are done copying, you can run
 it by:
+
 
     ExtensionPreprocessingJS.run({completionFunction: function(lang) {console.log(lang)}});
     ExtensionPreprocessingJS.finalize({from: 'ja', to: 'en'});
