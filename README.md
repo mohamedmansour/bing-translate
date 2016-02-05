@@ -1,7 +1,7 @@
 Bing Translate Action Extension
 ==============
 
-Blog Post: http://mohamedmansour.svbtle.com/how-to-communicate-between-javascript-sandboxes-1
+Blog Post: https://medium.com/@mohamedmansour/how-to-communicate-between-javascript-sandboxes-21371be0c01f
 
 Bing Translate iOS Action Extension, works in iOS, IE, Chrome, Safari, and
 Firefox. Currently just supplying the core code which is the JavaScript
